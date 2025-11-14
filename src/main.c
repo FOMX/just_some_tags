@@ -1,6 +1,8 @@
-#include <stdio.h>
+#include <stdio.h> 
+
+#define VERSION "v1.1.0"
 
 int main(void) {
-    puts("Hello, world!");
+    printf("Hello, world! (%s)\n", VERSION);
     return 0;
 }
